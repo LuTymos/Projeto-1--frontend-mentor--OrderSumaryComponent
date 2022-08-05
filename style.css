@@ -79,11 +79,13 @@ img{
 .box-order .plan p.name-plan{
     color: hsl(223, 47%, 23%);
     font-weight: 700;
+    font-size: 14px;
 }
 
 .box-order .plan p.price{
     margin-top: 0;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .box-order .plan .change{
