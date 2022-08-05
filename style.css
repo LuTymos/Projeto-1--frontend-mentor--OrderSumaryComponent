@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p{
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+
+.box-order{
+    width: 350px;
+    height: 560px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 9px 16px 2px rgba(0,0,0,0.28); 
+    box-shadow: 5px 9px 16px 2px rgba(0,0,0,0.28);
+text-align: center;
+}
+
+img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.box-order h1{
+    font-size: 27px;
+    margin-top: 25px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+.box-order .plan {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    padding: 10px 15px;
+    margin: 20px auto;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.name-price{
+    margin-left: 20px;
+}
+
+.box-order .plan img{
+ width: 40px;
+ height: 40px;
+}
+.box-order .plan p.name-plan{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.box-order .plan p.price{
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.box-order .plan .change{
+    color: hsl(228, 45%, 44%);
+    font-size: 14px;
+}
+
+.box-order .plan .change:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.grup{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 50%;
+}
+
+.proceed{
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    color: hsl(225, 100%, 98%);
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 20px 38px -7px rgba(56,41,224,0.45);
+    -moz-box-shadow: 0px 20px 38px -7px rgba(56,41,224,0.45);
+    box-shadow: 0px 20px 38px -7px rgba(56,41,224,0.45);
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.proceed:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.box-order a.cancel{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.box-order a.cancel:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+@media screen and (max-width:400px) {
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+}
